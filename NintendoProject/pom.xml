@@ -3,4 +3,22 @@
   <groupId>formation.ajc-sopra</groupId>
   <artifactId>NintendoProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+    	<!--PENSER A METTRE A JOUR les properties !! Clic droit dans le projet -> maven-> updateproject -->
+	<!--GAV = GroupeID, AtrifactID et Version  -->
+	
+	<dependencies>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.0.8</version>
+		</dependency>
+	</dependencies>
+	
+	
+	<properties>
+		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+	</properties>
+  
 </project>
