@@ -9,7 +9,8 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		Portable c1 = new Portable("Nintendo DS");
+
+		Portable c1 = new Portable("Nintendo DS",50,"2005-10-15");
 		Adresse a1 = new Adresse(1,"rue du Jeu", "Lyon");
 		Boutique b1 = new Boutique("Micromania", a1);
 		
@@ -31,6 +32,7 @@ public class Test {
 		
 		Client cl1 = new Client("Al","Colik",lAchatCl1);
 		Client cl2 = new Client("Laure","Dure",lAchatCl2);
+
 
 		
 	}
