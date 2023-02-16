@@ -6,7 +6,7 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		Console c1 = new Console("Nintendo DS");
+		Portable c1 = new Portable("Nintendo DS");
 		Adresse a1 = new Adresse(1,"rue du Jeu", "Lyon");
 		Boutique b1 = new Boutique("Micromania", a1);
 		
