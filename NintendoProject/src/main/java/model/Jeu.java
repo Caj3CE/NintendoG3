@@ -29,14 +29,6 @@ public class Jeu {
 	}
 
 
-
-	public Jeu(String titre, Console console) {
-		this.titre = titre;
-		this.console = console;
-	}
-
-
-
 	public String getTitre() {
 		return titre;
 	}
